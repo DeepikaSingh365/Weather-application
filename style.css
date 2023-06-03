@@ -1,0 +1,861 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+}
+
+@media screen and (min-width:0px) and (max-width:319.5px){
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        /* height: 100vh; */
+        /* padding: 1vw; */
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        gap:8vw;
+        
+    }
+    .main-block .form-block{
+        /* border:2px solid yellow; */
+        display: flex;
+        justify-content: center;
+        padding: 12vw;
+        background-image: linear-gradient(rgba(5, 5, 54, 0.547),rgba(0, 0, 0, 0.479));
+        
+    
+    }
+    .main-block .form-block .form-child{
+       /* border:2px solid red; */
+       display: flex;
+       background-color: black;
+       gap:2vw;
+       padding: 1.2vw 0.2vw 1.2vw 4vw;
+       border-radius: 2vw ;
+       margin-bottom: 1vw;
+       border:1px solid transparent;
+       transition-property: all;
+       transition-duration: 0.5s;
+       width:85vw;
+       
+    }
+    .form-child:hover{
+        transform: scale(1.1);
+        border: 1px solid rgba(255, 255, 255, 0.802) !important;
+    }
+    .main-block .form-block button{
+        outline: none;
+        border:none;
+        /* border:1px solid green; */
+        background-color: black;
+        cursor: pointer;
+        /* transform: scale(0.23); */
+    }
+    .main-block .form-block button .magnify{
+        color:rgb(255, 255, 255);
+        font-size:5.5vw;
+    }
+    .main-block .form-block input{
+        width:65vw;
+        font-size: 7vw;
+        background-color: rgba(0, 0, 0, 0.91);
+        padding: 3vw 0;
+        outline: none;
+        border:none;
+        border-radius:0.5vw;
+        color:white;
+    }
+    
+    .main-block article{
+        /* border:1px solid black; */
+        
+    }
+    .card-block{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;    
+    
+    
+    }
+    .sub-card-1{
+        /* border:2px solid purple; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        padding: 20vw 1vw 30vw 3vw;
+        gap:6vw;
+        /* padding-bottom: 2vw; */
+        color:white;
+        width:100vw;
+    
+    }
+    .sub-card-1 h1{
+        font-size: 20vw;
+        /* border:1px solid black; */
+        padding: 0;
+        /* text-decoration: 1px solid underline; */
+    
+    }
+    .sub-card-1 .country-block{
+        text-align: center;
+        /* border:2px solid red; */
+        padding-bottom: 3vw;
+    
+    
+    }
+    .country-block h2{
+        font-size: 10vw;
+        letter-spacing: 0.8px;
+        
+    }
+    .country-block h3{
+        font-size: 7vw;
+        font-weight: lighter;
+        letter-spacing: 0.8px;
+    
+    }
+    .sub-card-1 .description-block{
+        text-align: center;
+        /* border:2px solid red; */
+        padding-bottom: 3vw;
+    
+    
+    }
+    .description-block img{
+        height: 16vw;
+        width:16vw;
+        /* border:2px solid red; */
+        
+    }
+    .description-block h3{
+        font-size: 7.5vw;
+        text-transform: capitalize;
+        font-weight: lighter;
+        letter-spacing: 0.5px;
+    
+    
+    }
+    .sub-card-2{
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(4, 4, 48, 0.592),rgba(0, 0, 0, 0.668));
+        color:white;
+        padding:8vw;
+        width:100vw;
+        /* height: 20vh; */
+        display: flex;
+        flex-direction: column;
+        gap:2vw;
+
+    
+    }
+    .sub-card-2 h2{
+        font-size: 10vw;
+        text-align: center;
+        margin-bottom: 20vw;
+    }
+    .sub-card-2 .container{
+        /* border:1px solid yellow; */
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+        gap:2vw;       
+        margin-bottom: 3.5vw;
+        color:rgb(183, 183, 183);
+    }
+    .sub-card-2 .container h3{
+        font-size: 6vw;
+        font-weight: lighter;  
+        
+        
+    }
+    .sub-card-2 .container h4{
+        font-size: 5.5vw;
+        color:white;
+        font-weight: lighter;  
+        
+    
+    }
+    
+}
+@media screen and (min-width:319.5px) and (max-width:468.5px){
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        /* padding: 1vw; */
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        gap:4vw;
+        
+    }
+    .main-block .form-block{
+        /* border:2px solid yellow; */
+        display: flex;
+        justify-content: center;
+        padding: 10vw;
+        background-image: linear-gradient(rgba(5, 5, 54, 0.547),rgba(0, 0, 0, 0.479));
+    }
+    .main-block .form-block .form-child{
+       /* border:2px solid red; */
+       display: flex;
+       background-color: black;
+       gap:1vw;
+       padding: 2vw;
+       border-radius: 0.3vw ;
+       width:70vw;
+       margin-bottom: 1vw;
+       border:1px solid transparent;
+       transition-property: all;
+       transition-duration: 0.5s;
+       
+    }
+    .form-child:hover{
+        transform: scale(1.1);
+        border: 1px solid rgba(255, 255, 255, 0.802)!important;
+    }
+    .main-block .form-block button{
+        outline: none;
+        border:none;
+        /* border:1px solid green; */
+        background-color: black;
+        cursor: pointer;
+        /* transform: scale(0.23); */
+    }
+    .main-block .form-block button .magnify{
+        color:rgb(255, 255, 255);
+        font-size:4vw;
+    }
+
+    .main-block .form-block input{
+        width:50vw;
+        font-size: 4.2vw;
+        background-color: rgba(0, 0, 0, 0.91);
+        padding: 2vw;
+        outline: none;
+        border:none;
+        /* border-radius:0.2vw; */
+        color:white;
+    }
+    
+    .main-block article{
+        /* border:1px solid black; */
+        
+    }
+    .card-block{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;  
+        /* justify-content: flex-start;   */
+    
+    
+    }
+    .sub-card-1{
+        /* border:2px solid purple; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15vw 1vw 15vw 1vw;
+        gap:5vw;
+        /* padding-bottom: 2vw; */
+        color:white;
+        width:100vw;
+    
+    }
+    .sub-card-1 h1{
+        font-size: 13vw;
+        /* border:1px solid black; */
+        padding: 0;
+        /* text-decoration: 1px solid underline; */
+    
+    }
+    .sub-card-1 .country-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:2vw;
+    
+    
+    }
+    .country-block h2{
+        font-size: 4.5vw;
+        
+    }
+    .country-block h3{
+        font-size: 2.5vw;
+        font-weight: lighter;
+        
+    }
+    .sub-card-1 .description-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:-1.4vw;
+    
+    
+    }
+    .description-block img{
+        height: 11vw;
+        width:11vw;
+        /* border:2px solid red; */
+        
+    }
+    .description-block h3{
+        font-size: 3vw;
+        text-transform: capitalize;
+        font-weight: lighter;
+    
+    
+    }
+    .sub-card-2{
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(4, 4, 48, 0.592),rgba(0, 0, 0, 0.668));
+        color:white;
+        padding:8vw;
+        width:100vw;
+    
+    }
+    .sub-card-2 h2{
+        font-size: 7vw;
+        text-align: justify;
+        margin-bottom: 10vw;
+    }
+    .sub-card-2 .container{
+        /* border:1px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+        
+        margin-bottom: 2.5vw;
+        color:rgb(183, 183, 183);
+    }
+    .sub-card-2 .container h3{
+        font-size: 4vw;
+        font-weight: lighter;  
+        
+        
+    }
+    .sub-card-2 .container h4{
+        font-size: 3.5vw;
+        color:white;
+        font-weight: lighter;  
+        
+    
+    }
+    
+}
+@media screen and (min-width:469px) and (max-width:768.5px){
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        /* padding: 1vw; */
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        gap:4vw;
+        
+    }
+    .main-block .form-block{
+        /* border:2px solid yellow; */
+        display: flex;
+        justify-content: center;
+        padding: 10vw;
+        background-image: linear-gradient(rgba(5, 5, 54, 0.547),rgba(0, 0, 0, 0.479));
+    }
+    .main-block .form-block .form-child{
+       /* border:2px solid red; */
+       display: flex;
+       background-color: black;
+       gap:2vw;
+       padding: 2vw;
+       border-radius: 0.3vw ;
+       width:70vw;
+       margin-bottom: 1vw;
+       border:1px solid transparent;
+       transition-property: all;
+       transition-duration: 0.5s;
+
+    }
+    .form-child:hover{
+        transform: scale(1.1);
+        border: 1px solid rgba(255, 255, 255, 0.802) !important;
+    }
+    .main-block .form-block button{
+        outline: none;
+        border:none;
+        /* border:1px solid green; */
+        background-color: black;
+        cursor: pointer;
+        /* transform: scale(0.23); */
+    }
+    .main-block .form-block button .magnify{
+        color:rgb(255, 255, 255);
+        font-size:2.8vw;
+    }
+
+    .main-block .form-block input{
+        width:50vw;
+        font-size: 3.2vw;
+        background-color: rgba(0, 0, 0, 0.91);
+        padding: 2vw;
+        outline: none;
+        border:none;
+        /* border-radius:0.2vw; */
+        color:white;
+    }
+    
+    .main-block article{
+        /* border:1px solid black; */
+        
+    }
+    .card-block{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;  
+        /* justify-content: flex-start;   */
+    
+    
+    }
+    .sub-card-1{
+        /* border:2px solid purple; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10vw 2vw 10vw 2vw;
+        gap:5vw;
+        /* padding-bottom: 2vw; */
+        color:white;
+        width:100vw;
+    
+    }
+    .sub-card-1 h1{
+        font-size: 11vw;
+        /* border:1px solid black; */
+        /* padding: 0; */
+        /* text-decoration: 1px solid underline; */
+    
+    }
+    .sub-card-1 .country-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:1vw;
+    
+    
+    }
+    .country-block h2{
+        font-size: 3.5vw;
+        
+    }
+    .country-block h3{
+        font-size: 2.3vw;
+        font-weight: lighter;
+        
+    }
+    .sub-card-1 .description-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:-2.6vw;
+    
+    
+    }
+    .description-block img{
+        height: 11vw;
+        width:11vw;
+        /* border:2px solid red; */
+        
+    }
+    .description-block h3{
+        font-size: 2.5vw;
+        text-transform: capitalize;
+        font-weight: lighter;
+    
+    
+    }
+    .sub-card-2{
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(4, 4, 48, 0.592),rgba(0, 0, 0, 0.668));
+        color:white;
+        padding:8vw;
+        width:100vw;
+    
+    }
+    .sub-card-2 h2{
+        font-size: 5vw;
+        text-align: justify;
+        margin-bottom: 10vw;
+    }
+    .sub-card-2 .container{
+        /* border:1px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+        
+        margin-bottom: 2.5vw;
+        color:rgb(183, 183, 183);
+    }
+    .sub-card-2 .container h3{
+        font-size: 3.2vw;
+        font-weight: lighter;  
+        
+        
+    }
+    .sub-card-2 .container h4{
+        font-size: 2.7vw;
+        color:white;
+        font-weight: lighter;  
+        
+    
+    }
+    
+}
+@media screen and (min-width:768.5px) and (max-width:1024.5px){
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        /* padding: 1vw; */
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* gap:4vw; */
+        
+    }
+    .main-block .form-block{
+        /* border:2px solid yellow; */
+        display: flex;
+        justify-content: center;
+        padding: 7vw;
+        background-image: linear-gradient(rgba(5, 5, 54, 0.547),rgba(0, 0, 0, 0.479));
+    }
+    .main-block .form-block .form-child{
+       /* border:2px solid red; */
+       display: flex;
+       background-color: black;
+       gap:2vw;
+       padding: 1vw 2vw 1vw 2vw;
+       border-radius: 0.3vw ;
+       width:70vw;
+       border:1px solid transparent;
+       transition-property: all;
+       transition-duration: 0.5s;
+
+    }
+    .form-child:hover{
+        transform: scale(1.1);
+        border: 1px solid rgba(255, 255, 255, 0.802) !important;
+    }
+    .main-block .form-block button{
+        outline: none;
+        border:none;
+        /* border:1px solid green; */
+        background-color: black;
+        cursor: pointer;
+        /* transform: scale(0.23); */
+    }
+    .main-block .form-block button .magnify{
+        color:rgb(255, 255, 255);
+        font-size:2vw;
+    }
+
+    .main-block .form-block input{
+        width:50vw;
+        font-size: 2.5vw;
+        background-color: rgba(0, 0, 0, 0.91);
+        padding: 1vw;
+        outline: none;
+        border:none;
+        /* border-radius:0.2vw; */
+        color:white;
+    }
+    
+    .main-block article{
+        /* border:1px solid black; */
+        
+    }
+    .card-block{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        flex-wrap: no-wrap; 
+        /* padding-bottom: 20vw;  */
+        /* justify-content: flex-start;   */
+    
+    
+    }
+    .sub-card-1{
+        /* border:2px solid purple; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 10vw 2vw 10vw 2vw;
+        gap:5vw;
+        /* padding-bottom: 2vw; */
+        color:white;
+        /* width:100vw; */
+    
+    }
+    .sub-card-1 h1{
+        font-size: 8vw;
+        /* border:1px solid black; */
+        /* padding: 0; */
+        /* text-decoration: 1px solid underline; */
+    
+    }
+    .sub-card-1 .country-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:-1.5vw;
+    
+    
+    }
+    .country-block h2{
+        font-size: 3.5vw;
+        
+    }
+    .country-block h3{
+        font-size: 1.7vw;
+        font-weight: lighter;
+        
+    }
+    .sub-card-1 .description-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:-1.2vw;
+    
+    
+    }
+    .description-block img{
+        height: 11vw;
+        width:11vw;
+        /* border:2px solid red; */
+        
+    }
+    .description-block h3{
+        font-size: 2.2vw;
+        text-transform: capitalize;
+        font-weight: lighter;
+    
+    
+    }
+    .sub-card-2{
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(4, 4, 48, 0.592),rgba(0, 0, 0, 0.668));
+        color:white;
+        padding:8vw;
+        /* width:100vw; */
+    
+    }
+    .sub-card-2 h2{
+        font-size: 4vw;
+        text-align: justify;
+        margin-bottom: 10vw;
+    }
+    .sub-card-2 .container{
+        /* border:1px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5vw;
+        color:rgb(183, 183, 183);
+        gap:4vw;
+    }
+    .sub-card-2 .container h3{
+        font-size: 2vw;
+        font-weight: lighter;  
+        
+        
+    }
+    .sub-card-2 .container h4{
+        font-size: 1.8vw;
+        color:white;
+        font-weight: lighter;  
+        
+    
+    }
+    
+}
+@media screen and (min-width:1024.5px){
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        /* padding: 1vw; */
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* gap:4vw; */
+        
+    }
+    .main-block .form-block{
+        /* border:2px solid yellow; */
+        display: flex;
+        justify-content: center;
+        padding: 5vw 6vw;
+        background-image: linear-gradient(rgba(5, 5, 54, 0.547),rgba(0, 0, 0, 0.479));
+    }
+    .main-block .form-block .form-child{
+       /* border:2px solid red; */
+       display: flex;
+       background-color: black;
+       gap:2vw;
+       padding: 0.8vw 1vw 0.8vw 2vw;
+       border-radius: 0.3vw ;
+       width:60vw;
+       border:1px solid transparent;
+       transition-property: all;
+       transition-duration: 0.5s;
+    }
+    .form-child:hover{
+        transform: scale(1.1);
+        border: 1px solid rgba(255, 255, 255, 0.802) !important;
+    }
+    .main-block .form-block button{
+        outline: none;
+        border:none;
+        /* border:1px solid green; */
+        background-color: black;
+        cursor: pointer;
+        /* transform: scale(0.23); */
+    }
+    .main-block .form-block button .magnify{
+        color:rgb(255, 255, 255);
+        font-size:1.5vw;
+    }
+
+    .main-block .form-block input{
+        width:50vw;
+        font-size: 1.8vw;
+        background-color: rgba(0, 0, 0, 0.91);
+        padding: 0.8vw;
+        outline: none;
+        border:none;
+        /* border-radius:0.2vw; */
+        color:white;
+    }
+    
+    .main-block article{
+        /* border:1px solid black; */
+        
+    }
+    .card-block{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        flex-wrap: no-wrap; 
+        /* padding-bottom: 20vw;  */
+        /* justify-content: flex-start;   */
+    
+    
+    }
+    .sub-card-1{
+        /* border:2px solid purple; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 10vw 2vw 10vw 2vw;
+        gap:5vw;
+        /* padding-bottom: 2vw; */
+        color:white;
+        /* width:100vw; */
+    
+    }
+    .sub-card-1 h1{
+        font-size: 4vw;
+        /* border:1px solid black; */
+        /* padding: 0; */
+        /* text-decoration: 1px solid underline; */
+    
+    }
+    .sub-card-1 .country-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:-0.7vw;
+    
+    
+    }
+    .country-block h2{
+        font-size: 1.7vw;
+        
+    }
+    .country-block h3{
+        font-size: 1vw;
+        font-weight: lighter;
+        
+    }
+    .sub-card-1 .description-block{
+        text-align: center;
+        /* border:2px solid red; */
+        /* padding-bottom: 3vw; */
+        position: relative;
+        top:-1vw;
+    
+    
+    }
+    .description-block img{
+        height: 11vw;
+        width:11vw;
+        /* border:2px solid red; */
+        
+    }
+    .description-block h3{
+        font-size: 1.5vw;
+        text-transform: capitalize;
+        font-weight: lighter;
+    
+    
+    }
+    .sub-card-2{
+        /* border:2px solid red; */
+        background-image: linear-gradient(rgba(4, 4, 48, 0.592),rgba(0, 0, 0, 0.668));
+        color:white;
+        padding:5vw 8vw;
+        /* width:100vw; */
+    
+    }
+    .sub-card-2 h2{
+        font-size: 2.5vw;
+        text-align: justify;
+        margin-bottom: 7vw;
+    }
+    .sub-card-2 .container{
+        /* border:1px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5vw;
+        color:rgb(183, 183, 183);
+        gap:4vw;
+    }
+    .sub-card-2 .container h3{
+        font-size: 1.5vw;
+        font-weight: lighter;  
+        
+        
+    }
+    .sub-card-2 .container h4{
+        font-size: 1.3vw;
+        color:white;
+        font-weight: lighter;  
+        
+    
+    }
+    
+}
