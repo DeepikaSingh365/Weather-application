@@ -188,7 +188,7 @@
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -357,7 +357,7 @@
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -526,7 +526,7 @@
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -696,7 +696,7 @@
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
