@@ -5,7 +5,7 @@
     font-family: "Helvetica";
 }
 body{
-    background-image: linear-gradient(rgba(2, 2, 40, 0.949),rgba(0, 0, 0, 0.946)),url("/images/nepal-2184940_1920.jpg");
+    background-image: linear-gradient(rgba(2, 2, 40, 0.949),rgba(0, 0, 0, 0.946)),url("./nepal-2184940_1920.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@ body{
         /* height: 100vh; */
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -195,7 +195,7 @@ body{
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -368,7 +368,7 @@ body{
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -540,7 +540,7 @@ body{
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -715,7 +715,7 @@ body{
         flex-direction: column;
         /* padding: 1vw; */
         /* border:2px solid red; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("/images/nepal-2184940_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.793),rgba(0, 0, 0, 0.394)),url("./nepal-2184940_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
